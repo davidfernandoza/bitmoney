@@ -1,0 +1,30 @@
+'use strict'
+
+// Enviroments values:
+module.exports = {
+	port:         		process.env.PORT        || 8001,
+	username:    			process.env.DB_USERNAME || 'bitmoney_root',
+	password:     		process.env.DB_PASSWORD || 'ca749101db459013a250db34481e0f49',
+	database:     		process.env.DB_NAME     || 'bitmoney',
+	host:         		process.env.DB_HOSTNAME || '127.0.0.1',
+	enviroment:				process.env.NODE_ENV 		|| 'development',
+	exId:							'bitmoney.admin221925752',
+	exKey:						'7hp0l20st7h1tdf2am425rnrjg',
+	capKey:						'c956e306-27d9-4cd5-8912-f1127fcdc383',
+	company:      		'BitMoney.com',
+	email:        		'bitmoney.company@gmail.com',
+	passMail:     		'Ju4nM4nu3l',
+	staticToken:  		'a5e09f6c2cc43db1f79c0e8fc242056e4fe1e4053c74a6f173',
+	key:          		'f8fee6fc8e44337ab72d32e39cb03b20f8fee6fc8e44337ab72d32e39cb03b20',
+	soportPhone:  		'3127890765',
+	datosAuth:    		'Iqf6yV9RLxB8lvL4B83o5Bi9a',
+	urlFirebase: 			'https://bitmoney-702e6.firebaseio.com',
+	twilioId:					'AC3f3031b309e50ffa65c792aaa2e11048',
+	twilioToken:			'73a284d95103aee9b8658100930646af',
+	twilioNumFrom:		'+61437808163',
+	twilioNumAdmin:		'+573107148905',
+	bittrexKey:				'8c507c8d8f4a4002bf510108d266a2fc',
+	bittrexSecret:		'f7195c74aa494a1ebbde957ed778a310',
+	emailAdmin:				'juanbitcoin988@gmail.com',
+	numberCode: 			8,
+}
